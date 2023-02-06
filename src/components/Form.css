@@ -1,0 +1,33 @@
+.container {
+  background-color: #3ebedb;
+  padding: 26px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px black;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  padding-bottom: 10px;
+}
+input {
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+}
+button {
+  padding: 8px;
+  color: white;
+  background-color:  #4b3edb;
+  font-size: large;
+  border-radius: 10px;
+  transition: 0.5s;
+  border: none;
+}
+
+button:hover {
+  box-shadow: 5px 10px
+}
