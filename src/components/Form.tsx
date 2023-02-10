@@ -17,7 +17,7 @@ export default function Form() {
     const orderTime: Date = new Date(formJson["orderTime"])
     const deliveryFee: any = deliveryFeeCalculator(cartValue, meters, itemCount, orderTime)
     const fee = document.getElementById('fee')
-    if(fee) return fee.innerHTML = `Deleivery Price: ${deliveryFee}`
+    if(fee) return fee.innerHTML = `Delivery Price: ${deliveryFee}`
   }
 
   return (
@@ -41,7 +41,7 @@ export default function Form() {
         <button type="submit">Calculate delivery fee</button>
       </form>
 
-      <p id='fee'>Deleivery Price:  calculating...</p>
+      <p id='fee'>Delivery Price:  calculating...</p>
     </div>
   )
 }
